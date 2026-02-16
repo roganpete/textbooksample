@@ -1,0 +1,201 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Democracy,,CIVIC
+2,Civic Participation,1,CIVIC
+3,Elections,1|2,CIVIC
+4,Primary Elections,3,CIVIC
+5,General Elections,3,CIVIC
+6,Local Elections,3,CIVIC
+7,State Elections,3,CIVIC
+8,Federal Elections,3,CIVIC
+9,Election Cycles,3|4|5,CIVIC
+10,Midterm Elections,9|8,CIVIC
+11,Off-Year Elections,9|6,CIVIC
+12,Ballot Measures,3|6,CIVIC
+13,Voter Turnout,3|2,CIVIC
+14,Electorate,3,CIVIC
+15,Registered Voters,14,CIVIC
+16,Voting Districts,3|6,CIVIC
+17,Precincts,16,CIVIC
+18,Swing Districts,16|13,CIVIC
+19,Competitive Races,18|9,CIVIC
+20,Political Campaigns,3|2,CAMP
+21,Campaign Strategy,20,CAMP
+22,Campaign Timeline,20|9,CAMP
+23,Campaign Staff Roles,20,CAMP
+24,Field Operations,20|21,CAMP
+25,Ground Game,24,CAMP
+26,Voter File,15|24,CAMP
+27,Voter Targeting,26|18,CAMP
+28,Voter Universe,27,CAMP
+29,Voter Contact Rate,28|25,CAMP
+30,Campaign Messaging,21,SCRP
+31,Earned Media vs Paid Media,20|30,CAMP
+32,Grassroots Organizing,2|20|25,CAMP
+33,Canvassing,24|25,CANV
+34,History of Canvassing,33,CANV
+35,Canvassing Effectiveness,33|34|29,CANV
+36,Voter Contact Methods,33,CANV
+37,Face-to-Face Outreach,36|33,CANV
+38,Door-to-Door Canvassing,37,CANV
+39,Turf,38|17,CANV
+40,Turf Assignment,39|27,CANV
+41,Turf Cutting,40|28,CANV
+42,Walk List,40|26,CANV
+43,Canvassing App,42,CANV
+44,MiniVAN App,43,CANV
+45,Walk Packet,42,CANV
+46,Canvassing Script,38|30,SCRP
+47,Script Components,46,SCRP
+48,Introduction at the Door,47,SCRP
+49,Message Delivery,47|30,SCRP
+50,The Ask,47|49,SCRP
+51,Closing the Conversation,50,SCRP
+52,Recording Voter Responses,43|42,CANV
+53,Voter ID Codes,52,CANV
+54,Response Categories,53,CANV
+55,Canvassing Data Entry,52|54,CANV
+56,Volunteering,2|20,VOLN
+57,Finding Opportunities,56,VOLN
+58,Campaign Volunteer Roles,56|23,VOLN
+59,Volunteer Coordinator,58,VOLN
+60,Volunteer Etiquette,56,VOLN
+61,Volunteer Expectations,56|60,VOLN
+62,Time Commitment,61,VOLN
+63,Volunteer Motivation,56|2,VOLN
+64,Volunteer Retention,63|59,VOLN
+65,Volunteer Training,56|59,VOLN
+66,Volunteer Onboarding,65|57,VOLN
+67,First Volunteer Shift,66|38,FRST
+68,Pre-Shift Preparation,67,FRST
+69,What to Bring Canvassing,68,FRST
+70,What to Wear Canvassing,68,FRST
+71,Shift Check-In Process,67,FRST
+72,Shift Briefing,71|46,FRST
+73,Buddy System Canvassing,67|90,FRST
+74,Post-Shift Data Reporting,55|75,FRST
+75,Shift Debrief,67,FRST
+76,Overcoming Anxiety,67|63,FRST
+77,Managing Expectations,67|61,FRST
+78,Comfort Zone Expansion,76|77,FRST
+79,Door Knocking,38|67,DOOR
+80,Approaching a Door,79,DOOR
+81,Knocking Technique,80,DOOR
+82,Door Knock Timing,81,DOOR
+83,Waiting at the Door,82,DOOR
+84,No Answer Protocol,83,DOOR
+85,Leaving Door Hangers,84,DOOR
+86,Identifying the Voter,42|80,DOOR
+87,Voter Verification,86|26,DOOR
+88,Opening the Conversation,48|80,DOOR
+89,Staying on the Porch,80|90,DOOR
+90,Personal Safety at Doors,79,DOOR
+91,Dogs and Obstacles,90,DOOR
+92,Gated Communities,79|39,DOOR
+93,Apartment Canvassing,79|39,DOOR
+94,Rural Canvassing,79|39|96,DOOR
+95,Weather Challenges,79,DOOR
+96,Walking Pace and Stamina,79|39,DOOR
+97,Building Rapport,88|37,CONV
+98,Active Listening,97,CONV
+99,Open-Ended Questions,98,CONV
+100,Reflective Listening,98,CONV
+101,Reading Body Language,97,CONV
+102,Eye Contact,97,CONV
+103,Tone of Voice,97,CONV
+104,Staying on Message,49|97,CONV
+105,Handling Interruptions,104|98,CONV
+106,Navigating Disagreement,98|101,CONV
+107,Showing Empathy,98|100,CONV
+108,Knowing When to Leave,101|106,CONV
+109,Hostile Voter Encounters,106|90,CONV
+110,Disengagement Strategies,108|109,CONV
+111,Phone Banking,36|56,PHON
+112,Phone Bank Setup,111,PHON
+113,Auto-Dialer Systems,112,PHON
+114,Predictive Dialers,113,PHON
+115,Call Scripts,111|46,PHON
+116,Phone Banking Etiquette,111|60,PHON
+117,Leaving Voicemails,111,PHON
+118,Effective Voicemails,117|30,PHON
+119,Call Disposition Codes,111|53,PHON
+120,Managing Phone Rejection,111|76,PHON
+121,Call Volume Goals,111|29,PHON
+122,Phone Bank Metrics,121|119,PHON
+123,Virtual Phone Banking,111|112,PHON
+124,Relational Organizing,111|32,PHON
+125,Text Banking,36|56,TEXT
+126,Peer-to-Peer Texting,125,TEXT
+127,Texting Platforms,126,TEXT
+128,Hustle App,127,TEXT
+129,ThruText Platform,127,TEXT
+130,Initial Text Messages,125|30,TEXT
+131,Text Response Templates,130,TEXT
+132,Handling Text Replies,131,TEXT
+133,Texting Compliance,125,TEXT
+134,Opt-Out Procedures,133,TEXT
+135,TCPA Regulations,133,TEXT
+136,Text Message Tone,130|103,TEXT
+137,Text Volume Management,125|127,TEXT
+138,Scaling Text Outreach,137|127,TEXT
+139,Persuasion,30|97,PERS
+140,Undecided Voters,139|27,PERS
+141,Persuadable Voters,140|27,PERS
+142,Issue Framing,139|30,PERS
+143,Values-Based Messaging,142,PERS
+144,Storytelling for Persuasion,139,PERS
+145,Personal Story Sharing,144|107,PERS
+146,Emotional Appeals,139|144,PERS
+147,Logical Arguments,139,PERS
+148,Common Persuasion Pitfalls,139,PERS
+149,Avoiding Arguments,148|106,PERS
+150,Respecting Voter Autonomy,139|107,PERS
+151,Acknowledging Concerns,100|139,PERS
+152,Finding Common Ground,151|99,PERS
+153,Motivational Interviewing,98|139,PERS
+154,Inoculation Messaging,139|142,PERS
+155,Contrast Messaging,142|30,PERS
+156,Get Out the Vote,3|25|33,GOTV
+157,GOTV Timeline,156|22,GOTV
+158,GOTV vs Persuasion,156|139,GOTV
+159,Mobilization Strategy,156|21,GOTV
+160,Early Voting Outreach,156,GOTV
+161,Absentee Ballot Reminders,156,GOTV
+162,Election Day Logistics,156|157,GOTV
+163,Ride to the Polls,162,GOTV
+164,Poll Location Information,162|17,GOTV
+165,GOTV Door Knocking,79|156,GOTV
+166,Last-Touch Contacts,157|165,GOTV
+167,Chase Calls,111|156|166,GOTV
+168,GOTV Text Blasts,125|156,GOTV
+169,Voter Commitment Cards,156|50,GOTV
+170,Social Pressure Messaging,156|146,GOTV
+171,GOTV Shift Intensity,156|62,GOTV
+172,Deep Canvassing,33|107|139,DEEP
+173,Deep Canvassing Research,172,DEEP
+174,Traditional vs Deep Canvas,172|35,DEEP
+175,Narrative Exchange,172|144,DEEP
+176,Analogic Listening,175|100,DEEP
+177,Non-Judgmental Curiosity,172|107,DEEP
+178,Perspective Taking,177|107,DEEP
+179,Processing Questions,175|99,DEEP
+180,Attitude Change Science,173,DEEP
+181,Emotional Processing,175|146,DEEP
+182,Ten-Point Scale Rating,172,DEEP
+183,Deep Canvas Conversation,175|176|179,DEEP
+184,Deep Canvas Training,172|65,DEEP
+185,Deep Canvas Issue Selection,172|142,DEEP
+186,Long-Form Conversations,183|178,DEEP
+187,Canvassing Effectiveness Data,35|55|122,EVAL
+188,Contact Rate Analysis,29|187,EVAL
+189,Persuasion Rate Tracking,140|187,EVAL
+190,Self-Assessment,75|78,EVAL
+191,Performance Improvement,190,EVAL
+192,Script Effectiveness,46|187,EVAL
+193,Shift Planning,22|62,EVAL
+194,Multi-Method Volunteering,111|125|79,EVAL
+195,Election Cycle Planning,9|193|194,EVAL
+196,Canvassing Prep Checklist,68|69|70,EVAL
+197,Custom Script Creation,46|104|145,EVAL
+198,Volunteer Recruitment Plan,64|66|32,EVAL
+199,Deep Canvas Pilot Program,184|185|186,EVAL
+200,Personal Persuasion Toolkit,139|144|152|153,EVAL

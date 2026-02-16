@@ -1,0 +1,2485 @@
+{
+  "metadata": {
+    "title": "How to Volunteer for Political Canvassing and Door Knocking",
+    "description": "A comprehensive course preparing community members to become effective volunteers in political campaigns and voter outreach through canvassing, door knocking, phone banking, text banking, persuasive conversations, GOTV operations, and deep canvassing.",
+    "creator": "",
+    "date": "2026-02-15",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "VOLN": {
+      "classifierName": "Volunteering Basics",
+      "color": "MistyRose",
+      "font": {
+        "color": "black"
+      }
+    },
+    "TEXT": {
+      "classifierName": "Text Banking",
+      "color": "PeachPuff",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PERS": {
+      "classifierName": "Persuasion Techniques",
+      "color": "LightYellow",
+      "font": {
+        "color": "black"
+      }
+    },
+    "DOOR": {
+      "classifierName": "Door Knocking Skills",
+      "color": "Honeydew",
+      "font": {
+        "color": "black"
+      }
+    },
+    "GOTV": {
+      "classifierName": "GOTV Operations",
+      "color": "PaleTurquoise",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CAMP": {
+      "classifierName": "Campaign Operations",
+      "color": "SteelBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PHON": {
+      "classifierName": "Phone Banking",
+      "color": "Lavender",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CIVIC": {
+      "classifierName": "Civic Foundations",
+      "color": "LavenderBlush",
+      "font": {
+        "color": "black"
+      }
+    },
+    "SCRP": {
+      "classifierName": "Scripting and Messaging",
+      "color": "Thistle",
+      "font": {
+        "color": "black"
+      }
+    },
+    "EVAL": {
+      "classifierName": "Evaluation and Capstone",
+      "color": "MintCream",
+      "font": {
+        "color": "black"
+      }
+    },
+    "DEEP": {
+      "classifierName": "Deep Canvassing",
+      "color": "LightCoral",
+      "font": {
+        "color": "black"
+      }
+    },
+    "FRST": {
+      "classifierName": "First Shift Preparation",
+      "color": "Plum",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CONV": {
+      "classifierName": "Conversation Skills",
+      "color": "Gainsboro",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CANV": {
+      "classifierName": "Canvassing Fundamentals",
+      "color": "PowderBlue",
+      "font": {
+        "color": "black"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Democracy",
+      "group": "CIVIC",
+      "shape": "box"
+    },
+    {
+      "id": 2,
+      "label": "Civic Participation",
+      "group": "CIVIC"
+    },
+    {
+      "id": 3,
+      "label": "Elections",
+      "group": "CIVIC"
+    },
+    {
+      "id": 4,
+      "label": "Primary Elections",
+      "group": "CIVIC"
+    },
+    {
+      "id": 5,
+      "label": "General Elections",
+      "group": "CIVIC"
+    },
+    {
+      "id": 6,
+      "label": "Local Elections",
+      "group": "CIVIC"
+    },
+    {
+      "id": 7,
+      "label": "State Elections",
+      "group": "CIVIC"
+    },
+    {
+      "id": 8,
+      "label": "Federal Elections",
+      "group": "CIVIC"
+    },
+    {
+      "id": 9,
+      "label": "Election Cycles",
+      "group": "CIVIC"
+    },
+    {
+      "id": 10,
+      "label": "Midterm Elections",
+      "group": "CIVIC"
+    },
+    {
+      "id": 11,
+      "label": "Off-Year Elections",
+      "group": "CIVIC"
+    },
+    {
+      "id": 12,
+      "label": "Ballot Measures",
+      "group": "CIVIC"
+    },
+    {
+      "id": 13,
+      "label": "Voter Turnout",
+      "group": "CIVIC"
+    },
+    {
+      "id": 14,
+      "label": "Electorate",
+      "group": "CIVIC"
+    },
+    {
+      "id": 15,
+      "label": "Registered Voters",
+      "group": "CIVIC"
+    },
+    {
+      "id": 16,
+      "label": "Voting Districts",
+      "group": "CIVIC"
+    },
+    {
+      "id": 17,
+      "label": "Precincts",
+      "group": "CIVIC"
+    },
+    {
+      "id": 18,
+      "label": "Swing Districts",
+      "group": "CIVIC"
+    },
+    {
+      "id": 19,
+      "label": "Competitive Races",
+      "group": "CIVIC"
+    },
+    {
+      "id": 20,
+      "label": "Political Campaigns",
+      "group": "CAMP"
+    },
+    {
+      "id": 21,
+      "label": "Campaign Strategy",
+      "group": "CAMP"
+    },
+    {
+      "id": 22,
+      "label": "Campaign Timeline",
+      "group": "CAMP"
+    },
+    {
+      "id": 23,
+      "label": "Campaign Staff Roles",
+      "group": "CAMP"
+    },
+    {
+      "id": 24,
+      "label": "Field Operations",
+      "group": "CAMP"
+    },
+    {
+      "id": 25,
+      "label": "Ground Game",
+      "group": "CAMP"
+    },
+    {
+      "id": 26,
+      "label": "Voter File",
+      "group": "CAMP"
+    },
+    {
+      "id": 27,
+      "label": "Voter Targeting",
+      "group": "CAMP"
+    },
+    {
+      "id": 28,
+      "label": "Voter Universe",
+      "group": "CAMP"
+    },
+    {
+      "id": 29,
+      "label": "Voter Contact Rate",
+      "group": "CAMP"
+    },
+    {
+      "id": 30,
+      "label": "Campaign Messaging",
+      "group": "SCRP"
+    },
+    {
+      "id": 31,
+      "label": "Earned Media vs Paid Media",
+      "group": "CAMP"
+    },
+    {
+      "id": 32,
+      "label": "Grassroots Organizing",
+      "group": "CAMP"
+    },
+    {
+      "id": 33,
+      "label": "Canvassing",
+      "group": "CANV"
+    },
+    {
+      "id": 34,
+      "label": "History of Canvassing",
+      "group": "CANV"
+    },
+    {
+      "id": 35,
+      "label": "Canvassing Effectiveness",
+      "group": "CANV"
+    },
+    {
+      "id": 36,
+      "label": "Voter Contact Methods",
+      "group": "CANV"
+    },
+    {
+      "id": 37,
+      "label": "Face-to-Face Outreach",
+      "group": "CANV"
+    },
+    {
+      "id": 38,
+      "label": "Door-to-Door Canvassing",
+      "group": "CANV"
+    },
+    {
+      "id": 39,
+      "label": "Turf",
+      "group": "CANV"
+    },
+    {
+      "id": 40,
+      "label": "Turf Assignment",
+      "group": "CANV"
+    },
+    {
+      "id": 41,
+      "label": "Turf Cutting",
+      "group": "CANV"
+    },
+    {
+      "id": 42,
+      "label": "Walk List",
+      "group": "CANV"
+    },
+    {
+      "id": 43,
+      "label": "Canvassing App",
+      "group": "CANV"
+    },
+    {
+      "id": 44,
+      "label": "MiniVAN App",
+      "group": "CANV"
+    },
+    {
+      "id": 45,
+      "label": "Walk Packet",
+      "group": "CANV"
+    },
+    {
+      "id": 46,
+      "label": "Canvassing Script",
+      "group": "SCRP"
+    },
+    {
+      "id": 47,
+      "label": "Script Components",
+      "group": "SCRP"
+    },
+    {
+      "id": 48,
+      "label": "Introduction at the Door",
+      "group": "SCRP"
+    },
+    {
+      "id": 49,
+      "label": "Message Delivery",
+      "group": "SCRP"
+    },
+    {
+      "id": 50,
+      "label": "The Ask",
+      "group": "SCRP"
+    },
+    {
+      "id": 51,
+      "label": "Closing the Conversation",
+      "group": "SCRP"
+    },
+    {
+      "id": 52,
+      "label": "Recording Voter Responses",
+      "group": "CANV"
+    },
+    {
+      "id": 53,
+      "label": "Voter ID Codes",
+      "group": "CANV"
+    },
+    {
+      "id": 54,
+      "label": "Response Categories",
+      "group": "CANV"
+    },
+    {
+      "id": 55,
+      "label": "Canvassing Data Entry",
+      "group": "CANV"
+    },
+    {
+      "id": 56,
+      "label": "Volunteering",
+      "group": "VOLN"
+    },
+    {
+      "id": 57,
+      "label": "Finding Opportunities",
+      "group": "VOLN"
+    },
+    {
+      "id": 58,
+      "label": "Campaign Volunteer Roles",
+      "group": "VOLN"
+    },
+    {
+      "id": 59,
+      "label": "Volunteer Coordinator",
+      "group": "VOLN"
+    },
+    {
+      "id": 60,
+      "label": "Volunteer Etiquette",
+      "group": "VOLN"
+    },
+    {
+      "id": 61,
+      "label": "Volunteer Expectations",
+      "group": "VOLN"
+    },
+    {
+      "id": 62,
+      "label": "Time Commitment",
+      "group": "VOLN"
+    },
+    {
+      "id": 63,
+      "label": "Volunteer Motivation",
+      "group": "VOLN"
+    },
+    {
+      "id": 64,
+      "label": "Volunteer Retention",
+      "group": "VOLN"
+    },
+    {
+      "id": 65,
+      "label": "Volunteer Training",
+      "group": "VOLN"
+    },
+    {
+      "id": 66,
+      "label": "Volunteer Onboarding",
+      "group": "VOLN"
+    },
+    {
+      "id": 67,
+      "label": "First Volunteer Shift",
+      "group": "FRST"
+    },
+    {
+      "id": 68,
+      "label": "Pre-Shift Preparation",
+      "group": "FRST"
+    },
+    {
+      "id": 69,
+      "label": "What to Bring Canvassing",
+      "group": "FRST"
+    },
+    {
+      "id": 70,
+      "label": "What to Wear Canvassing",
+      "group": "FRST"
+    },
+    {
+      "id": 71,
+      "label": "Shift Check-In Process",
+      "group": "FRST"
+    },
+    {
+      "id": 72,
+      "label": "Shift Briefing",
+      "group": "FRST"
+    },
+    {
+      "id": 73,
+      "label": "Buddy System Canvassing",
+      "group": "FRST"
+    },
+    {
+      "id": 74,
+      "label": "Post-Shift Data Reporting",
+      "group": "FRST"
+    },
+    {
+      "id": 75,
+      "label": "Shift Debrief",
+      "group": "FRST"
+    },
+    {
+      "id": 76,
+      "label": "Overcoming Anxiety",
+      "group": "FRST"
+    },
+    {
+      "id": 77,
+      "label": "Managing Expectations",
+      "group": "FRST"
+    },
+    {
+      "id": 78,
+      "label": "Comfort Zone Expansion",
+      "group": "FRST"
+    },
+    {
+      "id": 79,
+      "label": "Door Knocking",
+      "group": "DOOR"
+    },
+    {
+      "id": 80,
+      "label": "Approaching a Door",
+      "group": "DOOR"
+    },
+    {
+      "id": 81,
+      "label": "Knocking Technique",
+      "group": "DOOR"
+    },
+    {
+      "id": 82,
+      "label": "Door Knock Timing",
+      "group": "DOOR"
+    },
+    {
+      "id": 83,
+      "label": "Waiting at the Door",
+      "group": "DOOR"
+    },
+    {
+      "id": 84,
+      "label": "No Answer Protocol",
+      "group": "DOOR"
+    },
+    {
+      "id": 85,
+      "label": "Leaving Door Hangers",
+      "group": "DOOR"
+    },
+    {
+      "id": 86,
+      "label": "Identifying the Voter",
+      "group": "DOOR"
+    },
+    {
+      "id": 87,
+      "label": "Voter Verification",
+      "group": "DOOR"
+    },
+    {
+      "id": 88,
+      "label": "Opening the Conversation",
+      "group": "DOOR"
+    },
+    {
+      "id": 89,
+      "label": "Staying on the Porch",
+      "group": "DOOR"
+    },
+    {
+      "id": 90,
+      "label": "Personal Safety at Doors",
+      "group": "DOOR"
+    },
+    {
+      "id": 91,
+      "label": "Dogs and Obstacles",
+      "group": "DOOR"
+    },
+    {
+      "id": 92,
+      "label": "Gated Communities",
+      "group": "DOOR"
+    },
+    {
+      "id": 93,
+      "label": "Apartment Canvassing",
+      "group": "DOOR"
+    },
+    {
+      "id": 94,
+      "label": "Rural Canvassing",
+      "group": "DOOR"
+    },
+    {
+      "id": 95,
+      "label": "Weather Challenges",
+      "group": "DOOR"
+    },
+    {
+      "id": 96,
+      "label": "Walking Pace and Stamina",
+      "group": "DOOR"
+    },
+    {
+      "id": 97,
+      "label": "Building Rapport",
+      "group": "CONV"
+    },
+    {
+      "id": 98,
+      "label": "Active Listening",
+      "group": "CONV"
+    },
+    {
+      "id": 99,
+      "label": "Open-Ended Questions",
+      "group": "CONV"
+    },
+    {
+      "id": 100,
+      "label": "Reflective Listening",
+      "group": "CONV"
+    },
+    {
+      "id": 101,
+      "label": "Reading Body Language",
+      "group": "CONV"
+    },
+    {
+      "id": 102,
+      "label": "Eye Contact",
+      "group": "CONV"
+    },
+    {
+      "id": 103,
+      "label": "Tone of Voice",
+      "group": "CONV"
+    },
+    {
+      "id": 104,
+      "label": "Staying on Message",
+      "group": "CONV"
+    },
+    {
+      "id": 105,
+      "label": "Handling Interruptions",
+      "group": "CONV"
+    },
+    {
+      "id": 106,
+      "label": "Navigating Disagreement",
+      "group": "CONV"
+    },
+    {
+      "id": 107,
+      "label": "Showing Empathy",
+      "group": "CONV"
+    },
+    {
+      "id": 108,
+      "label": "Knowing When to Leave",
+      "group": "CONV"
+    },
+    {
+      "id": 109,
+      "label": "Hostile Voter Encounters",
+      "group": "CONV"
+    },
+    {
+      "id": 110,
+      "label": "Disengagement Strategies",
+      "group": "CONV"
+    },
+    {
+      "id": 111,
+      "label": "Phone Banking",
+      "group": "PHON"
+    },
+    {
+      "id": 112,
+      "label": "Phone Bank Setup",
+      "group": "PHON"
+    },
+    {
+      "id": 113,
+      "label": "Auto-Dialer Systems",
+      "group": "PHON"
+    },
+    {
+      "id": 114,
+      "label": "Predictive Dialers",
+      "group": "PHON"
+    },
+    {
+      "id": 115,
+      "label": "Call Scripts",
+      "group": "PHON"
+    },
+    {
+      "id": 116,
+      "label": "Phone Banking Etiquette",
+      "group": "PHON"
+    },
+    {
+      "id": 117,
+      "label": "Leaving Voicemails",
+      "group": "PHON"
+    },
+    {
+      "id": 118,
+      "label": "Effective Voicemails",
+      "group": "PHON"
+    },
+    {
+      "id": 119,
+      "label": "Call Disposition Codes",
+      "group": "PHON"
+    },
+    {
+      "id": 120,
+      "label": "Managing Phone Rejection",
+      "group": "PHON"
+    },
+    {
+      "id": 121,
+      "label": "Call Volume Goals",
+      "group": "PHON"
+    },
+    {
+      "id": 122,
+      "label": "Phone Bank Metrics",
+      "group": "PHON"
+    },
+    {
+      "id": 123,
+      "label": "Virtual Phone Banking",
+      "group": "PHON"
+    },
+    {
+      "id": 124,
+      "label": "Relational Organizing",
+      "group": "PHON"
+    },
+    {
+      "id": 125,
+      "label": "Text Banking",
+      "group": "TEXT"
+    },
+    {
+      "id": 126,
+      "label": "Peer-to-Peer Texting",
+      "group": "TEXT"
+    },
+    {
+      "id": 127,
+      "label": "Texting Platforms",
+      "group": "TEXT"
+    },
+    {
+      "id": 128,
+      "label": "Hustle App",
+      "group": "TEXT"
+    },
+    {
+      "id": 129,
+      "label": "ThruText Platform",
+      "group": "TEXT"
+    },
+    {
+      "id": 130,
+      "label": "Initial Text Messages",
+      "group": "TEXT"
+    },
+    {
+      "id": 131,
+      "label": "Text Response Templates",
+      "group": "TEXT"
+    },
+    {
+      "id": 132,
+      "label": "Handling Text Replies",
+      "group": "TEXT"
+    },
+    {
+      "id": 133,
+      "label": "Texting Compliance",
+      "group": "TEXT"
+    },
+    {
+      "id": 134,
+      "label": "Opt-Out Procedures",
+      "group": "TEXT"
+    },
+    {
+      "id": 135,
+      "label": "TCPA Regulations",
+      "group": "TEXT"
+    },
+    {
+      "id": 136,
+      "label": "Text Message Tone",
+      "group": "TEXT"
+    },
+    {
+      "id": 137,
+      "label": "Text Volume Management",
+      "group": "TEXT"
+    },
+    {
+      "id": 138,
+      "label": "Scaling Text Outreach",
+      "group": "TEXT"
+    },
+    {
+      "id": 139,
+      "label": "Persuasion",
+      "group": "PERS"
+    },
+    {
+      "id": 140,
+      "label": "Undecided Voters",
+      "group": "PERS"
+    },
+    {
+      "id": 141,
+      "label": "Persuadable Voters",
+      "group": "PERS"
+    },
+    {
+      "id": 142,
+      "label": "Issue Framing",
+      "group": "PERS"
+    },
+    {
+      "id": 143,
+      "label": "Values-Based Messaging",
+      "group": "PERS"
+    },
+    {
+      "id": 144,
+      "label": "Storytelling for Persuasion",
+      "group": "PERS"
+    },
+    {
+      "id": 145,
+      "label": "Personal Story Sharing",
+      "group": "PERS"
+    },
+    {
+      "id": 146,
+      "label": "Emotional Appeals",
+      "group": "PERS"
+    },
+    {
+      "id": 147,
+      "label": "Logical Arguments",
+      "group": "PERS"
+    },
+    {
+      "id": 148,
+      "label": "Common Persuasion Pitfalls",
+      "group": "PERS"
+    },
+    {
+      "id": 149,
+      "label": "Avoiding Arguments",
+      "group": "PERS"
+    },
+    {
+      "id": 150,
+      "label": "Respecting Voter Autonomy",
+      "group": "PERS"
+    },
+    {
+      "id": 151,
+      "label": "Acknowledging Concerns",
+      "group": "PERS"
+    },
+    {
+      "id": 152,
+      "label": "Finding Common Ground",
+      "group": "PERS"
+    },
+    {
+      "id": 153,
+      "label": "Motivational Interviewing",
+      "group": "PERS"
+    },
+    {
+      "id": 154,
+      "label": "Inoculation Messaging",
+      "group": "PERS"
+    },
+    {
+      "id": 155,
+      "label": "Contrast Messaging",
+      "group": "PERS"
+    },
+    {
+      "id": 156,
+      "label": "Get Out the Vote",
+      "group": "GOTV"
+    },
+    {
+      "id": 157,
+      "label": "GOTV Timeline",
+      "group": "GOTV"
+    },
+    {
+      "id": 158,
+      "label": "GOTV vs Persuasion",
+      "group": "GOTV"
+    },
+    {
+      "id": 159,
+      "label": "Mobilization Strategy",
+      "group": "GOTV"
+    },
+    {
+      "id": 160,
+      "label": "Early Voting Outreach",
+      "group": "GOTV"
+    },
+    {
+      "id": 161,
+      "label": "Absentee Ballot Reminders",
+      "group": "GOTV"
+    },
+    {
+      "id": 162,
+      "label": "Election Day Logistics",
+      "group": "GOTV"
+    },
+    {
+      "id": 163,
+      "label": "Ride to the Polls",
+      "group": "GOTV"
+    },
+    {
+      "id": 164,
+      "label": "Poll Location Information",
+      "group": "GOTV"
+    },
+    {
+      "id": 165,
+      "label": "GOTV Door Knocking",
+      "group": "GOTV"
+    },
+    {
+      "id": 166,
+      "label": "Last-Touch Contacts",
+      "group": "GOTV"
+    },
+    {
+      "id": 167,
+      "label": "Chase Calls",
+      "group": "GOTV"
+    },
+    {
+      "id": 168,
+      "label": "GOTV Text Blasts",
+      "group": "GOTV"
+    },
+    {
+      "id": 169,
+      "label": "Voter Commitment Cards",
+      "group": "GOTV"
+    },
+    {
+      "id": 170,
+      "label": "Social Pressure Messaging",
+      "group": "GOTV"
+    },
+    {
+      "id": 171,
+      "label": "GOTV Shift Intensity",
+      "group": "GOTV"
+    },
+    {
+      "id": 172,
+      "label": "Deep Canvassing",
+      "group": "DEEP"
+    },
+    {
+      "id": 173,
+      "label": "Deep Canvassing Research",
+      "group": "DEEP"
+    },
+    {
+      "id": 174,
+      "label": "Traditional vs Deep Canvas",
+      "group": "DEEP"
+    },
+    {
+      "id": 175,
+      "label": "Narrative Exchange",
+      "group": "DEEP"
+    },
+    {
+      "id": 176,
+      "label": "Analogic Listening",
+      "group": "DEEP"
+    },
+    {
+      "id": 177,
+      "label": "Non-Judgmental Curiosity",
+      "group": "DEEP"
+    },
+    {
+      "id": 178,
+      "label": "Perspective Taking",
+      "group": "DEEP"
+    },
+    {
+      "id": 179,
+      "label": "Processing Questions",
+      "group": "DEEP"
+    },
+    {
+      "id": 180,
+      "label": "Attitude Change Science",
+      "group": "DEEP"
+    },
+    {
+      "id": 181,
+      "label": "Emotional Processing",
+      "group": "DEEP"
+    },
+    {
+      "id": 182,
+      "label": "Ten-Point Scale Rating",
+      "group": "DEEP"
+    },
+    {
+      "id": 183,
+      "label": "Deep Canvas Conversation",
+      "group": "DEEP"
+    },
+    {
+      "id": 184,
+      "label": "Deep Canvas Training",
+      "group": "DEEP"
+    },
+    {
+      "id": 185,
+      "label": "Deep Canvas Issue Selection",
+      "group": "DEEP"
+    },
+    {
+      "id": 186,
+      "label": "Long-Form Conversations",
+      "group": "DEEP"
+    },
+    {
+      "id": 187,
+      "label": "Canvassing Effectiveness Data",
+      "group": "EVAL"
+    },
+    {
+      "id": 188,
+      "label": "Contact Rate Analysis",
+      "group": "EVAL"
+    },
+    {
+      "id": 189,
+      "label": "Persuasion Rate Tracking",
+      "group": "EVAL"
+    },
+    {
+      "id": 190,
+      "label": "Self-Assessment",
+      "group": "EVAL"
+    },
+    {
+      "id": 191,
+      "label": "Performance Improvement",
+      "group": "EVAL"
+    },
+    {
+      "id": 192,
+      "label": "Script Effectiveness",
+      "group": "EVAL"
+    },
+    {
+      "id": 193,
+      "label": "Shift Planning",
+      "group": "EVAL"
+    },
+    {
+      "id": 194,
+      "label": "Multi-Method Volunteering",
+      "group": "EVAL"
+    },
+    {
+      "id": 195,
+      "label": "Election Cycle Planning",
+      "group": "EVAL"
+    },
+    {
+      "id": 196,
+      "label": "Canvassing Prep Checklist",
+      "group": "EVAL"
+    },
+    {
+      "id": 197,
+      "label": "Custom Script Creation",
+      "group": "EVAL"
+    },
+    {
+      "id": 198,
+      "label": "Volunteer Recruitment Plan",
+      "group": "EVAL"
+    },
+    {
+      "id": 199,
+      "label": "Deep Canvas Pilot Program",
+      "group": "EVAL"
+    },
+    {
+      "id": 200,
+      "label": "Personal Persuasion Toolkit",
+      "group": "EVAL"
+    }
+  ],
+  "edges": [
+    {
+      "from": 2,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 2
+    },
+    {
+      "from": 4,
+      "to": 3
+    },
+    {
+      "from": 5,
+      "to": 3
+    },
+    {
+      "from": 6,
+      "to": 3
+    },
+    {
+      "from": 7,
+      "to": 3
+    },
+    {
+      "from": 8,
+      "to": 3
+    },
+    {
+      "from": 9,
+      "to": 3
+    },
+    {
+      "from": 9,
+      "to": 4
+    },
+    {
+      "from": 9,
+      "to": 5
+    },
+    {
+      "from": 10,
+      "to": 9
+    },
+    {
+      "from": 10,
+      "to": 8
+    },
+    {
+      "from": 11,
+      "to": 9
+    },
+    {
+      "from": 11,
+      "to": 6
+    },
+    {
+      "from": 12,
+      "to": 3
+    },
+    {
+      "from": 12,
+      "to": 6
+    },
+    {
+      "from": 13,
+      "to": 3
+    },
+    {
+      "from": 13,
+      "to": 2
+    },
+    {
+      "from": 14,
+      "to": 3
+    },
+    {
+      "from": 15,
+      "to": 14
+    },
+    {
+      "from": 16,
+      "to": 3
+    },
+    {
+      "from": 16,
+      "to": 6
+    },
+    {
+      "from": 17,
+      "to": 16
+    },
+    {
+      "from": 18,
+      "to": 16
+    },
+    {
+      "from": 18,
+      "to": 13
+    },
+    {
+      "from": 19,
+      "to": 18
+    },
+    {
+      "from": 19,
+      "to": 9
+    },
+    {
+      "from": 20,
+      "to": 3
+    },
+    {
+      "from": 20,
+      "to": 2
+    },
+    {
+      "from": 21,
+      "to": 20
+    },
+    {
+      "from": 22,
+      "to": 20
+    },
+    {
+      "from": 22,
+      "to": 9
+    },
+    {
+      "from": 23,
+      "to": 20
+    },
+    {
+      "from": 24,
+      "to": 20
+    },
+    {
+      "from": 24,
+      "to": 21
+    },
+    {
+      "from": 25,
+      "to": 24
+    },
+    {
+      "from": 26,
+      "to": 15
+    },
+    {
+      "from": 26,
+      "to": 24
+    },
+    {
+      "from": 27,
+      "to": 26
+    },
+    {
+      "from": 27,
+      "to": 18
+    },
+    {
+      "from": 28,
+      "to": 27
+    },
+    {
+      "from": 29,
+      "to": 28
+    },
+    {
+      "from": 29,
+      "to": 25
+    },
+    {
+      "from": 30,
+      "to": 21
+    },
+    {
+      "from": 31,
+      "to": 20
+    },
+    {
+      "from": 31,
+      "to": 30
+    },
+    {
+      "from": 32,
+      "to": 2
+    },
+    {
+      "from": 32,
+      "to": 20
+    },
+    {
+      "from": 32,
+      "to": 25
+    },
+    {
+      "from": 33,
+      "to": 24
+    },
+    {
+      "from": 33,
+      "to": 25
+    },
+    {
+      "from": 34,
+      "to": 33
+    },
+    {
+      "from": 35,
+      "to": 33
+    },
+    {
+      "from": 35,
+      "to": 34
+    },
+    {
+      "from": 35,
+      "to": 29
+    },
+    {
+      "from": 36,
+      "to": 33
+    },
+    {
+      "from": 37,
+      "to": 36
+    },
+    {
+      "from": 37,
+      "to": 33
+    },
+    {
+      "from": 38,
+      "to": 37
+    },
+    {
+      "from": 39,
+      "to": 38
+    },
+    {
+      "from": 39,
+      "to": 17
+    },
+    {
+      "from": 40,
+      "to": 39
+    },
+    {
+      "from": 40,
+      "to": 27
+    },
+    {
+      "from": 41,
+      "to": 40
+    },
+    {
+      "from": 41,
+      "to": 28
+    },
+    {
+      "from": 42,
+      "to": 40
+    },
+    {
+      "from": 42,
+      "to": 26
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 44,
+      "to": 43
+    },
+    {
+      "from": 45,
+      "to": 42
+    },
+    {
+      "from": 46,
+      "to": 38
+    },
+    {
+      "from": 46,
+      "to": 30
+    },
+    {
+      "from": 47,
+      "to": 46
+    },
+    {
+      "from": 48,
+      "to": 47
+    },
+    {
+      "from": 49,
+      "to": 47
+    },
+    {
+      "from": 49,
+      "to": 30
+    },
+    {
+      "from": 50,
+      "to": 47
+    },
+    {
+      "from": 50,
+      "to": 49
+    },
+    {
+      "from": 51,
+      "to": 50
+    },
+    {
+      "from": 52,
+      "to": 43
+    },
+    {
+      "from": 52,
+      "to": 42
+    },
+    {
+      "from": 53,
+      "to": 52
+    },
+    {
+      "from": 54,
+      "to": 53
+    },
+    {
+      "from": 55,
+      "to": 52
+    },
+    {
+      "from": 55,
+      "to": 54
+    },
+    {
+      "from": 56,
+      "to": 2
+    },
+    {
+      "from": 56,
+      "to": 20
+    },
+    {
+      "from": 57,
+      "to": 56
+    },
+    {
+      "from": 58,
+      "to": 56
+    },
+    {
+      "from": 58,
+      "to": 23
+    },
+    {
+      "from": 59,
+      "to": 58
+    },
+    {
+      "from": 60,
+      "to": 56
+    },
+    {
+      "from": 61,
+      "to": 56
+    },
+    {
+      "from": 61,
+      "to": 60
+    },
+    {
+      "from": 62,
+      "to": 61
+    },
+    {
+      "from": 63,
+      "to": 56
+    },
+    {
+      "from": 63,
+      "to": 2
+    },
+    {
+      "from": 64,
+      "to": 63
+    },
+    {
+      "from": 64,
+      "to": 59
+    },
+    {
+      "from": 65,
+      "to": 56
+    },
+    {
+      "from": 65,
+      "to": 59
+    },
+    {
+      "from": 66,
+      "to": 65
+    },
+    {
+      "from": 66,
+      "to": 57
+    },
+    {
+      "from": 67,
+      "to": 66
+    },
+    {
+      "from": 67,
+      "to": 38
+    },
+    {
+      "from": 68,
+      "to": 67
+    },
+    {
+      "from": 69,
+      "to": 68
+    },
+    {
+      "from": 70,
+      "to": 68
+    },
+    {
+      "from": 71,
+      "to": 67
+    },
+    {
+      "from": 72,
+      "to": 71
+    },
+    {
+      "from": 72,
+      "to": 46
+    },
+    {
+      "from": 73,
+      "to": 67
+    },
+    {
+      "from": 73,
+      "to": 90
+    },
+    {
+      "from": 74,
+      "to": 55
+    },
+    {
+      "from": 74,
+      "to": 75
+    },
+    {
+      "from": 75,
+      "to": 67
+    },
+    {
+      "from": 76,
+      "to": 67
+    },
+    {
+      "from": 76,
+      "to": 63
+    },
+    {
+      "from": 77,
+      "to": 67
+    },
+    {
+      "from": 77,
+      "to": 61
+    },
+    {
+      "from": 78,
+      "to": 76
+    },
+    {
+      "from": 78,
+      "to": 77
+    },
+    {
+      "from": 79,
+      "to": 38
+    },
+    {
+      "from": 79,
+      "to": 67
+    },
+    {
+      "from": 80,
+      "to": 79
+    },
+    {
+      "from": 81,
+      "to": 80
+    },
+    {
+      "from": 82,
+      "to": 81
+    },
+    {
+      "from": 83,
+      "to": 82
+    },
+    {
+      "from": 84,
+      "to": 83
+    },
+    {
+      "from": 85,
+      "to": 84
+    },
+    {
+      "from": 86,
+      "to": 42
+    },
+    {
+      "from": 86,
+      "to": 80
+    },
+    {
+      "from": 87,
+      "to": 86
+    },
+    {
+      "from": 87,
+      "to": 26
+    },
+    {
+      "from": 88,
+      "to": 48
+    },
+    {
+      "from": 88,
+      "to": 80
+    },
+    {
+      "from": 89,
+      "to": 80
+    },
+    {
+      "from": 89,
+      "to": 90
+    },
+    {
+      "from": 90,
+      "to": 79
+    },
+    {
+      "from": 91,
+      "to": 90
+    },
+    {
+      "from": 92,
+      "to": 79
+    },
+    {
+      "from": 92,
+      "to": 39
+    },
+    {
+      "from": 93,
+      "to": 79
+    },
+    {
+      "from": 93,
+      "to": 39
+    },
+    {
+      "from": 94,
+      "to": 79
+    },
+    {
+      "from": 94,
+      "to": 39
+    },
+    {
+      "from": 94,
+      "to": 96
+    },
+    {
+      "from": 95,
+      "to": 79
+    },
+    {
+      "from": 96,
+      "to": 79
+    },
+    {
+      "from": 96,
+      "to": 39
+    },
+    {
+      "from": 97,
+      "to": 88
+    },
+    {
+      "from": 97,
+      "to": 37
+    },
+    {
+      "from": 98,
+      "to": 97
+    },
+    {
+      "from": 99,
+      "to": 98
+    },
+    {
+      "from": 100,
+      "to": 98
+    },
+    {
+      "from": 101,
+      "to": 97
+    },
+    {
+      "from": 102,
+      "to": 97
+    },
+    {
+      "from": 103,
+      "to": 97
+    },
+    {
+      "from": 104,
+      "to": 49
+    },
+    {
+      "from": 104,
+      "to": 97
+    },
+    {
+      "from": 105,
+      "to": 104
+    },
+    {
+      "from": 105,
+      "to": 98
+    },
+    {
+      "from": 106,
+      "to": 98
+    },
+    {
+      "from": 106,
+      "to": 101
+    },
+    {
+      "from": 107,
+      "to": 98
+    },
+    {
+      "from": 107,
+      "to": 100
+    },
+    {
+      "from": 108,
+      "to": 101
+    },
+    {
+      "from": 108,
+      "to": 106
+    },
+    {
+      "from": 109,
+      "to": 106
+    },
+    {
+      "from": 109,
+      "to": 90
+    },
+    {
+      "from": 110,
+      "to": 108
+    },
+    {
+      "from": 110,
+      "to": 109
+    },
+    {
+      "from": 111,
+      "to": 36
+    },
+    {
+      "from": 111,
+      "to": 56
+    },
+    {
+      "from": 112,
+      "to": 111
+    },
+    {
+      "from": 113,
+      "to": 112
+    },
+    {
+      "from": 114,
+      "to": 113
+    },
+    {
+      "from": 115,
+      "to": 111
+    },
+    {
+      "from": 115,
+      "to": 46
+    },
+    {
+      "from": 116,
+      "to": 111
+    },
+    {
+      "from": 116,
+      "to": 60
+    },
+    {
+      "from": 117,
+      "to": 111
+    },
+    {
+      "from": 118,
+      "to": 117
+    },
+    {
+      "from": 118,
+      "to": 30
+    },
+    {
+      "from": 119,
+      "to": 111
+    },
+    {
+      "from": 119,
+      "to": 53
+    },
+    {
+      "from": 120,
+      "to": 111
+    },
+    {
+      "from": 120,
+      "to": 76
+    },
+    {
+      "from": 121,
+      "to": 111
+    },
+    {
+      "from": 121,
+      "to": 29
+    },
+    {
+      "from": 122,
+      "to": 121
+    },
+    {
+      "from": 122,
+      "to": 119
+    },
+    {
+      "from": 123,
+      "to": 111
+    },
+    {
+      "from": 123,
+      "to": 112
+    },
+    {
+      "from": 124,
+      "to": 111
+    },
+    {
+      "from": 124,
+      "to": 32
+    },
+    {
+      "from": 125,
+      "to": 36
+    },
+    {
+      "from": 125,
+      "to": 56
+    },
+    {
+      "from": 126,
+      "to": 125
+    },
+    {
+      "from": 127,
+      "to": 126
+    },
+    {
+      "from": 128,
+      "to": 127
+    },
+    {
+      "from": 129,
+      "to": 127
+    },
+    {
+      "from": 130,
+      "to": 125
+    },
+    {
+      "from": 130,
+      "to": 30
+    },
+    {
+      "from": 131,
+      "to": 130
+    },
+    {
+      "from": 132,
+      "to": 131
+    },
+    {
+      "from": 133,
+      "to": 125
+    },
+    {
+      "from": 134,
+      "to": 133
+    },
+    {
+      "from": 135,
+      "to": 133
+    },
+    {
+      "from": 136,
+      "to": 130
+    },
+    {
+      "from": 136,
+      "to": 103
+    },
+    {
+      "from": 137,
+      "to": 125
+    },
+    {
+      "from": 137,
+      "to": 127
+    },
+    {
+      "from": 138,
+      "to": 137
+    },
+    {
+      "from": 138,
+      "to": 127
+    },
+    {
+      "from": 139,
+      "to": 30
+    },
+    {
+      "from": 139,
+      "to": 97
+    },
+    {
+      "from": 140,
+      "to": 139
+    },
+    {
+      "from": 140,
+      "to": 27
+    },
+    {
+      "from": 141,
+      "to": 140
+    },
+    {
+      "from": 141,
+      "to": 27
+    },
+    {
+      "from": 142,
+      "to": 139
+    },
+    {
+      "from": 142,
+      "to": 30
+    },
+    {
+      "from": 143,
+      "to": 142
+    },
+    {
+      "from": 144,
+      "to": 139
+    },
+    {
+      "from": 145,
+      "to": 144
+    },
+    {
+      "from": 145,
+      "to": 107
+    },
+    {
+      "from": 146,
+      "to": 139
+    },
+    {
+      "from": 146,
+      "to": 144
+    },
+    {
+      "from": 147,
+      "to": 139
+    },
+    {
+      "from": 148,
+      "to": 139
+    },
+    {
+      "from": 149,
+      "to": 148
+    },
+    {
+      "from": 149,
+      "to": 106
+    },
+    {
+      "from": 150,
+      "to": 139
+    },
+    {
+      "from": 150,
+      "to": 107
+    },
+    {
+      "from": 151,
+      "to": 100
+    },
+    {
+      "from": 151,
+      "to": 139
+    },
+    {
+      "from": 152,
+      "to": 151
+    },
+    {
+      "from": 152,
+      "to": 99
+    },
+    {
+      "from": 153,
+      "to": 98
+    },
+    {
+      "from": 153,
+      "to": 139
+    },
+    {
+      "from": 154,
+      "to": 139
+    },
+    {
+      "from": 154,
+      "to": 142
+    },
+    {
+      "from": 155,
+      "to": 142
+    },
+    {
+      "from": 155,
+      "to": 30
+    },
+    {
+      "from": 156,
+      "to": 3
+    },
+    {
+      "from": 156,
+      "to": 25
+    },
+    {
+      "from": 156,
+      "to": 33
+    },
+    {
+      "from": 157,
+      "to": 156
+    },
+    {
+      "from": 157,
+      "to": 22
+    },
+    {
+      "from": 158,
+      "to": 156
+    },
+    {
+      "from": 158,
+      "to": 139
+    },
+    {
+      "from": 159,
+      "to": 156
+    },
+    {
+      "from": 159,
+      "to": 21
+    },
+    {
+      "from": 160,
+      "to": 156
+    },
+    {
+      "from": 161,
+      "to": 156
+    },
+    {
+      "from": 162,
+      "to": 156
+    },
+    {
+      "from": 162,
+      "to": 157
+    },
+    {
+      "from": 163,
+      "to": 162
+    },
+    {
+      "from": 164,
+      "to": 162
+    },
+    {
+      "from": 164,
+      "to": 17
+    },
+    {
+      "from": 165,
+      "to": 79
+    },
+    {
+      "from": 165,
+      "to": 156
+    },
+    {
+      "from": 166,
+      "to": 157
+    },
+    {
+      "from": 166,
+      "to": 165
+    },
+    {
+      "from": 167,
+      "to": 111
+    },
+    {
+      "from": 167,
+      "to": 156
+    },
+    {
+      "from": 167,
+      "to": 166
+    },
+    {
+      "from": 168,
+      "to": 125
+    },
+    {
+      "from": 168,
+      "to": 156
+    },
+    {
+      "from": 169,
+      "to": 156
+    },
+    {
+      "from": 169,
+      "to": 50
+    },
+    {
+      "from": 170,
+      "to": 156
+    },
+    {
+      "from": 170,
+      "to": 146
+    },
+    {
+      "from": 171,
+      "to": 156
+    },
+    {
+      "from": 171,
+      "to": 62
+    },
+    {
+      "from": 172,
+      "to": 33
+    },
+    {
+      "from": 172,
+      "to": 107
+    },
+    {
+      "from": 172,
+      "to": 139
+    },
+    {
+      "from": 173,
+      "to": 172
+    },
+    {
+      "from": 174,
+      "to": 172
+    },
+    {
+      "from": 174,
+      "to": 35
+    },
+    {
+      "from": 175,
+      "to": 172
+    },
+    {
+      "from": 175,
+      "to": 144
+    },
+    {
+      "from": 176,
+      "to": 175
+    },
+    {
+      "from": 176,
+      "to": 100
+    },
+    {
+      "from": 177,
+      "to": 172
+    },
+    {
+      "from": 177,
+      "to": 107
+    },
+    {
+      "from": 178,
+      "to": 177
+    },
+    {
+      "from": 178,
+      "to": 107
+    },
+    {
+      "from": 179,
+      "to": 175
+    },
+    {
+      "from": 179,
+      "to": 99
+    },
+    {
+      "from": 180,
+      "to": 173
+    },
+    {
+      "from": 181,
+      "to": 175
+    },
+    {
+      "from": 181,
+      "to": 146
+    },
+    {
+      "from": 182,
+      "to": 172
+    },
+    {
+      "from": 183,
+      "to": 175
+    },
+    {
+      "from": 183,
+      "to": 176
+    },
+    {
+      "from": 183,
+      "to": 179
+    },
+    {
+      "from": 184,
+      "to": 172
+    },
+    {
+      "from": 184,
+      "to": 65
+    },
+    {
+      "from": 185,
+      "to": 172
+    },
+    {
+      "from": 185,
+      "to": 142
+    },
+    {
+      "from": 186,
+      "to": 183
+    },
+    {
+      "from": 186,
+      "to": 178
+    },
+    {
+      "from": 187,
+      "to": 35
+    },
+    {
+      "from": 187,
+      "to": 55
+    },
+    {
+      "from": 187,
+      "to": 122
+    },
+    {
+      "from": 188,
+      "to": 29
+    },
+    {
+      "from": 188,
+      "to": 187
+    },
+    {
+      "from": 189,
+      "to": 140
+    },
+    {
+      "from": 189,
+      "to": 187
+    },
+    {
+      "from": 190,
+      "to": 75
+    },
+    {
+      "from": 190,
+      "to": 78
+    },
+    {
+      "from": 191,
+      "to": 190
+    },
+    {
+      "from": 192,
+      "to": 46
+    },
+    {
+      "from": 192,
+      "to": 187
+    },
+    {
+      "from": 193,
+      "to": 22
+    },
+    {
+      "from": 193,
+      "to": 62
+    },
+    {
+      "from": 194,
+      "to": 111
+    },
+    {
+      "from": 194,
+      "to": 125
+    },
+    {
+      "from": 194,
+      "to": 79
+    },
+    {
+      "from": 195,
+      "to": 9
+    },
+    {
+      "from": 195,
+      "to": 193
+    },
+    {
+      "from": 195,
+      "to": 194
+    },
+    {
+      "from": 196,
+      "to": 68
+    },
+    {
+      "from": 196,
+      "to": 69
+    },
+    {
+      "from": 196,
+      "to": 70
+    },
+    {
+      "from": 197,
+      "to": 46
+    },
+    {
+      "from": 197,
+      "to": 104
+    },
+    {
+      "from": 197,
+      "to": 145
+    },
+    {
+      "from": 198,
+      "to": 64
+    },
+    {
+      "from": 198,
+      "to": 66
+    },
+    {
+      "from": 198,
+      "to": 32
+    },
+    {
+      "from": 199,
+      "to": 184
+    },
+    {
+      "from": 199,
+      "to": 185
+    },
+    {
+      "from": 199,
+      "to": 186
+    },
+    {
+      "from": 200,
+      "to": 139
+    },
+    {
+      "from": 200,
+      "to": 144
+    },
+    {
+      "from": 200,
+      "to": 152
+    },
+    {
+      "from": 200,
+      "to": 153
+    }
+  ]
+}
